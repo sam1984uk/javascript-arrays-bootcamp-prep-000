@@ -30,7 +30,7 @@ function accessElementInArray(array, index){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array){
-  return array.shift();
+  return array.shift(1);
   }
   
 function removeElementFromBeginningOfArray(array){
@@ -38,7 +38,7 @@ function removeElementFromBeginningOfArray(array){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  return array.pop();
+  return array.pop(0);
 }
 
 function removeElementFromEndOfArray(array){
